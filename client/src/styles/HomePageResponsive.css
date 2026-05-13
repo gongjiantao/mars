@@ -1,0 +1,65 @@
+/* 响应式样式文件 */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-description {
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.5;
+  }
+  
+  .hero-content {
+    padding: 0 20px;
+    max-width: 100%;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .timeline-item:hover,
+  .award-card:hover,
+  .fan-message:hover {
+    transform: translateY(-4px) scale(1.01);
+  }
+  
+  .timeline-item,
+  .award-card,
+  .fan-message {
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .hero-description {
+    font-size: 0.95rem;
+  }
+  
+  .timeline-item,
+  .award-card,
+  .fan-message {
+    border-radius: 12px;
+  }
+}

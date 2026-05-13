@@ -1,0 +1,44 @@
+{
+  "short_name": "火星基地",
+  "name": "火星基地粉丝社区",
+  "description": "火星基地粉丝社区平台 - 包含个人中心、匿名社区、公益地图、挑战赛和反网络暴力计划等功能模块",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "android-chrome-192x192.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192"
+    },
+    {
+      "src": "android-chrome-512x512.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    },
+    {
+      "src": "apple-touch-icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "180x180"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#ff4081",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "categories": ["music", "social", "entertainment"],
+  "screenshots": [
+    {
+      "src": "og-image.svg",
+      "type": "image/svg+xml",
+      "sizes": "1200x1200",
+      "form_factor": "wide"
+    }
+  ]
+}
